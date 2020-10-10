@@ -21,7 +21,7 @@ function getImages() {
         crossDomain: true,
         headers: {
             'Access-Control-Allow-Credentials': true,
-            'Access-Control-Allow-Origin': 'http://localhost:8081/',
+            'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'GET',
             'Access-Control-Allow-Headers': 'application/json',
             'X-Requested-With': 'XMLHttpRequest'
